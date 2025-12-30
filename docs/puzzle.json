@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "title": "SI Units Crossword",
+    "author": "Science Tutor",
+    "size": { "rows": 12, "cols": 12 }
+  },
+  "clues": {
+    "across": [
+      {
+        "number": 3,
+        "clue": "SI measurement of mass",
+        "answer": "KILOGRAM",
+        "direction": "across",
+        "row": 4,
+        "col": 4
+      },
+      {
+        "number": 4,
+        "clue": "SI measurement of time",
+        "answer": "SECOND",
+        "direction": "across",
+        "row": 1,
+        "col": 4
+      },
+      {
+        "number": 6,
+        "clue": "SI measurement of electric current",
+        "answer": "AMPERE",
+        "direction": "across",
+        "row": 7,
+        "col": 4
+      },
+      {
+        "number": 8,
+        "clue": "SI measurement of electrical resistance",
+        "answer": "OHM",
+        "direction": "across",
+        "row": 7,
+        "col": 11
+      },
+      {
+        "number": 9,
+        "clue": "SI measurement of frequency",
+        "answer": "HERTZ",
+        "direction": "across",
+        "row": 9,
+        "col": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "SI measurement of temperature",
+        "answer": "KELVIN",
+        "direction": "down",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "number": 2,
+        "clue": "SI measurement of energy",
+        "answer": "JOULE",
+        "direction": "down",
+        "row": 3,
+        "col": 7
+      },
+      {
+        "number": 5,
+        "clue": "SI measurement of force",
+        "answer": "NEWTON",
+        "direction": "down",
+        "row": 6,
+        "col": 9
+      },
+      {
+        "number": 7,
+        "clue": "SI measurement of length",
+        "answer": "METER",
+        "direction": "down",
+        "row": 7,
+        "col": 5
+      },
+      {
+        "number": 10,
+        "clue": "SI measurement of power",
+        "answer": "WATT",
+        "direction": "down",
+        "row": 2,
+        "col": 2
+      }
+    ]
+  }
+}
