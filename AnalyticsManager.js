@@ -163,7 +163,12 @@ class AnalyticsManager {
       xpEarnedTotal: xpTotal,
       xpEarned: xpTotal,
       xpTotal: xpTotal,
-      bestXp: xpTotal,
+      bestXp: (() => {
+        const _key = 'bestXp_' + (this._reportData.gameId || '');
+        let _prev = 0; try { _prev = parseInt(localStorage.getItem(_key) || '0', 10) || 0; } catch (_e) {}
+        if (xpTotal > _prev) { try { localStorage.setItem(_key, String(xpTotal)); } catch (_e) {} }
+        return Math.max(xpTotal, _prev);
+      })(),
       rawData: this._reportData.rawData,
       diagnostics: this._reportData.diagnostics
     };
